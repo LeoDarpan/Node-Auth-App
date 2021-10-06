@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What New I learnt?</title>
+</head>
+<body>
+    <h1>What's new that I learnt in it?</h1>
+    <ul>
+        <li>Learnt Mongoose Validations</li>
+        <li>While declaring properties in the Schema, we can add custom error messages along with validation requirements in the form of an array</li>
+        <li>Made a special new function for handling errors</li>
+        <li>Learnt about Mongoose Hooks to avoid storing user passwords as plain text in the database.</li>
+        <li>We can fire function just before and after a doc is saved to the DB using post and pre methods</li>
+        <li>JWT hashing mechanism</li>
+        <li>It is best to hash the passwords just before it is saved to the database.</li>
+        <li>This is where pre hook can be used.</li>
+        <li>How to create a script for the form in its same file.</li>
+        <li>How to save cookies in the browser from the server.</li>
+        <li>Cookie functions are always written in the app.js</li>
+        <li>Easier to maintain cookies - npm install cookie-parser</li>
+        <li>Using JWT to instantly login the user to the application just after they sign up.</li>
+        <li>On Clicking signup, the user data goes to the server using the fetch api, then the password is hashed using pre hook of Mongoose, then the user is added to the database and then the jwt token is generated and sent in the cookie.</li>
+        <li>On getting response, errors can be checked and can be displayed below the input fields</li>
+        <li>If there is a user in the response, there is no error, either you can redirect the app or display a success message.</li>
+        <li>Leart to create a static method to the models - Method to Login to the User Model</li>
+        <li>Cookies are sent to the server with every request.</li>
+        <li>JWT sent in cookies can help the server to see if the user is already logged in or not? And can also help decide which page should be presented to the user - Private or Public?</li>
+        <li>Protecting routes based on the authentication status of the users.</li>
+        <li>Creating a middleware and applying it to the routes that need protection.</li>
+        <li>Checking already logged in user and using locals to send it to the view</li>
+        <li></li>
+    </ul>
+</body>
+</html>
